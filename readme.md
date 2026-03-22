@@ -25,12 +25,11 @@
 ### 🚀 Quick Start
 
 ```bash
+npx create-expo-app MyScanner
+
+cd MyScanner
 # Install dependencies
-npm install
-
-# Start the development server
-expo start
-
+npm install && npm install expo-barcode-scanner && npm start
 # Run on iOS or Android
 # Press 'i' for iOS simulator or 'a' for Android emulator
 ```
