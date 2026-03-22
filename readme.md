@@ -28,6 +28,7 @@
 npx create-expo-app MyScanner
 
 cd MyScanner
+# Copy src from my github into MyScanner folder 
 # Install dependencies
 npm install && npm install expo-barcode-scanner && npm start
 # Run on iOS or Android
